@@ -1,9 +1,9 @@
 import { useState, useMemo } from "react";
-import useLocalStorage from "./Hooks/useLocalStorage";
+import useLocalStorage from "./hooks/useLocalStorage";
 import Header from "./components/Header";
 import TaskForm from "./components/TaskForm";
 import ProgressBar from "./components/ProgressBar";
-import FilterTabs from "./Components/FilterTabs";
+import FilterTabs from "./components/FilterTabs";
 import TaskList from "./components/TaskList";
 import Footer from "./components/Footer";
 
